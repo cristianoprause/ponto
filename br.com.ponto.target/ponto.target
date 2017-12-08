@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pde version="3.8"?><target name="ponto" sequenceNumber="4">
+<locations>
+<location includeAllPlatforms="true" includeConfigurePhase="false" includeMode="slicer" includeSource="true" type="InstallableUnit">
+<unit id="org.eclipse.equinox.sdk.feature.group" version="3.8.0.v20121212-203907-7M7fA78g4_y-edvtH0ZcEC5NOFTB"/>
+<repository location="http://download.eclipse.org/eclipse/updates/3.8"/>
+</location>
+<location includeAllPlatforms="true" includeConfigurePhase="false" includeMode="slicer" includeSource="true" type="InstallableUnit">
+<unit id="org.eclipse.platform.ide" version="3.8.2.M20130131-0800"/>
+<repository location="http://download.eclipse.org/eclipse/updates/3.8"/>
+</location>
+</locations>
+</target>
