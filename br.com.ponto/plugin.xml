@@ -40,6 +40,11 @@
          <menu
                label="Arquivo">
             <command
+                  commandId="br.com.ponto.ConfiguracaoCommand"
+                  label="Configurações"
+                  style="push">
+            </command>
+            <command
                   commandId="org.eclipse.ui.file.exit"
                   label="Sair">
             </command>
@@ -86,6 +91,14 @@
             id="br.com.ponto.tela.editor.UsuarioEditor"
             name="Usuário">
       </editor>
+   </extension>
+   <extension
+         point="org.eclipse.ui.commands">
+      <command
+            defaultHandler="br.com.ponto.aplicacao.command.ConfiguracaoCommand"
+            id="br.com.ponto.ConfiguracaoCommand"
+            name="Configuração">
+      </command>
    </extension>
 
 </plugin>

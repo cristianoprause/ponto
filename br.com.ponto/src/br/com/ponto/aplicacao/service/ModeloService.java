@@ -25,6 +25,10 @@ public abstract class ModeloService<T> {
 		return getRepository().find(id);
 	}
 	
+	public void refresh() {
+		getRepository().refresh(modelo);
+	}
+	
 	public List<T> findAll(){
 		return getRepository().findAll();
 	}

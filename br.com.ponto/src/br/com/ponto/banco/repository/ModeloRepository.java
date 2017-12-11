@@ -7,6 +7,7 @@ public interface ModeloRepository<T> {
 	boolean isDirty();
 	void saveOrUpdate(T modelo);
 	void delete(T modelo);
+	void refresh(T modelo);
 	T find(Long id);
 	List<T> findAll();
 	

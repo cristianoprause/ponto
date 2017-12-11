@@ -28,6 +28,10 @@ public class EclipselinkConnection<T> {
 		return ((EntityManagerImpl)getEntityManager()).getUnitOfWork().hasChanges();
 	}
 	
+	public void refresh(T modelo) {
+		getEntityManager().refresh(modelo);
+	}
+	
 	public EntityManager getEntityManager() {
 		if(entityManager == null)
 			entityManager = ModeloEntityManager.getEntityManager();
