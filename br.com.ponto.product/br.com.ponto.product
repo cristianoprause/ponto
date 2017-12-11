@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?pde version="3.5"?>
 
-<product name="Ponto" id="br.com.ponto.ponto" application="br.com.ponto.application" version="0.0.1" useFeatures="false" includeLaunchers="true">
+<product name="Ponto" id="br.com.ponto.ponto" application="br.com.ponto.application" version="0.1.0" useFeatures="false" includeLaunchers="true">
 
    <configIni use="default">
    </configIni>
