@@ -6,6 +6,7 @@
 
 		<class>br.com.ponto.banco.modelo.Usuario</class>
 		<class>br.com.ponto.banco.modelo.Configuracao</class>
+		<class>br.com.ponto.banco.modelo.BancoHora</class>
 		
 	</persistence-unit>
 </persistence>

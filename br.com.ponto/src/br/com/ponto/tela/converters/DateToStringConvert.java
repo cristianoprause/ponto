@@ -10,6 +10,10 @@ public class DateToStringConvert extends Converter{
 
 	private String pattern;
 	
+	public DateToStringConvert() {
+		this("dd/MM/yyyy");
+	}
+	
 	public DateToStringConvert(String pattern) {
 		super(Date.class, String.class);
 		this.pattern = pattern;

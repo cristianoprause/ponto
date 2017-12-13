@@ -26,6 +26,11 @@
             id="br.com.ponto.tela.view.UsuarioView"
             name="Usuário">
       </view>
+      <view
+            class="br.com.ponto.tela.view.BancoHoraView"
+            id="br.com.ponto.tela.view.BancoHoraView"
+            name="Banco de horas">
+      </view>
    </extension>
    <extension
          point="org.eclipse.ui.perspectiveExtensions">
@@ -56,6 +61,15 @@
             <parameter
                   name="org.eclipse.ui.views.showView.viewId"
                   value="br.com.ponto.tela.view.UsuarioView">
+            </parameter>
+         </command>
+         <command
+               commandId="org.eclipse.ui.views.showView"
+               label="Banco de horas"
+               style="push">
+            <parameter
+                  name="org.eclipse.ui.views.showView.viewId"
+                  value="br.com.ponto.tela.view.BancoHoraView">
             </parameter>
          </command>
       </menuContribution>

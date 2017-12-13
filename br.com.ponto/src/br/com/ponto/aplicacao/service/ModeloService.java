@@ -18,6 +18,10 @@ public abstract class ModeloService<T> {
 	}
 	
 	public void delete(){
+		delete(modelo);
+	}
+	
+	public void delete(T modelo) {
 		getRepository().delete(modelo);
 	}
 	
